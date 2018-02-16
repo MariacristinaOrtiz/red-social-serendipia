@@ -138,12 +138,12 @@ $(document).ready(function() {
     $textArea.val('');
     $buttonPublicar.addClass('disabled', 'disabled');
   });
-  // agrgando foto con firebase
-  firebase.database().ref('usuarios/' + user.uid).on('value', function(s) {
+  // agregando foto con firebase
+  /* firebase.database().ref('usuarios/' + user.uid).on('value', function(s) {
     var user = s.val();
     console.log(s);
     console.log(user);
     $('#perfil-img').attr('src', user.foto);
     $('#username-perfil').text(user.nombre);
-  });
+  });*/
 });

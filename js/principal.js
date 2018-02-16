@@ -10,19 +10,16 @@ $(document).ready(function() {
   // Variables booleanas para la activación del button
   var validatePerson = false;
   var validateLock = false;
-
   // Función para guardar los datos del usuario.
   $btnCreateAccountPrincipal.on('click', function() {
     window.location.href = '../views/registro.html';
   });
-
   $person.on('input', function() {
     if ($(this).val() === localStorage.firstName) {
       // alert('pasa');
       validatePerson = true;
     }
   });
-
   $lock.on('input', function() {
     if ($(this).val() === localStorage.password) {
       // alert('esto tambien pasa');
@@ -30,7 +27,6 @@ $(document).ready(function() {
       $loginAccount.removeClass('disabled');
     }
   });
-
   // Función para comparar los datos ingresados del usuario.
   $loginAccount.on('click', function() {
     event.preventDefault();
@@ -40,8 +36,7 @@ $(document).ready(function() {
       alert('Oh no! Necesitas registrate');
     }
   });
-
-  // Login with google
+  /* // Login with google
   var provider = new firebase.auth.GoogleAuthProvider();
   $('#login-google').click(function() {
     firebase.auth()
@@ -52,7 +47,6 @@ $(document).ready(function() {
         alert('¡Bienvenid@ a Serendipia!');
       });
   });
-
   // Ésta función guarda automáticamente
   function saveData(user) {
     var user = {
@@ -61,5 +55,5 @@ $(document).ready(function() {
       uid: user.uid,
       photo: user.photoURL
     };
-  };
+  };*/
 });

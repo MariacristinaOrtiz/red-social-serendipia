@@ -38,35 +38,35 @@
   </header>
   <!--header vista desktop-->
   <header class="show-on-large hide-on-small-only hide-on-med-and-down">
-  <nav class="navbar-fixed nav-desktop">
-    <div class="container-nav">
-     <div class="row nav-wrapper">
-       <div class="col l4 xl4">
-         <a href=""><img src="../assets/images/seren.png" alt="logo" class="responsive-img logo-header"></a>
+    <nav class="navbar-fixed nav-desktop">
+      <div class="container-nav">
+       <div class="row nav-wrapper">
+         <div class="col l4 xl4">
+           <a href=""><img src="../assets/images/seren.png" alt="logo" class="responsive-img logo-header"></a>
+         </div>
+         <div class="input-field col l4 xl4">
+          <i class="material-icons prefix">search</i>
+          <input class="input" id="search" type="text" class="validate" placeholder="   Buscar">
+         </div>
+         <ul class="right hide-on-med-and-down col l4 xl4">
+           <li><a href="vistaPerfil.html"><i class="material-icons">account_circle</i></a></li>
+           <li><a href="home.html"><i class="material-icons">home</i></a></li>
+           <li><a href="#!"><i class="material-icons">notifications</i></li>
+           <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
+         </ul>
+         <!--Lista desplegable para salir(cerrar sesión)-->
+         <ul id="dropdown1" class="dropdown-content">
+           <li><a href="principal.html">Salir</a></li>
+         </ul>
        </div>
-       <div class="input-field col l4 xl4">
-        <i class="material-icons prefix">search</i>
-        <input class="input" id="search" type="text" class="validate" placeholder="   Buscar">
       </div>
-    <ul class="right hide-on-med-and-down col l4 xl4">
-      <li><a href="vistaPerfil.html"><i class="material-icons">account_circle</i></a></li>
-      <li><a href="home.html"><i class="material-icons">home</i></a></li>
-      <li><a href="#!"><i class="material-icons">notifications</i></li>
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
-    </ul>
-    <!--Lista desplegable para salir(cerrar sesión)-->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="principal.html">Salir</a></li>
-    </ul>
-     </div>
-    </div>
-  </nav>
-</header>
-<!--FIRST SECTION-->
-<main class="section-first padding-top-section">
-  <section>
-    <div class="container 100%">
-      <div class="row">
+    </nav>
+  </header>
+  <!--FIRST SECTION-->
+  <main class="section-first padding-top-section">
+    <section>
+      <div class="container 100%">
+        <div class="row">
         <div class="col s12 container-perfil-portada">
           <a href="#" id="file-select" class="btn green lighten-2 absolute btn-style-principal"><i class="material-icons">camera_enhance</i></a>
           <img id="preview-img"src="https://img.kpopmap.com/2015/03/ohmygirlprofile.jpg" alt="" class=" height-portada  col s12 l12 z-depth-5">
@@ -75,105 +75,105 @@
           </form>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row margin-btm-0">
-        <div class="col s4 l3 offset-s1 offset-l1 container-perfil-portada">
-          <a href="#" id="file-select-perfil" class="btn green lighten-2 button-save-photo btn-style-principal absolute"><i class="material-icons">camera_enhance</i></a>
-          <div class="height-perfil z-depth-4"><img id="perfil-img" src="https://i.pinimg.com/736x/0c/db/4f/0cdb4fe1bb54b149248e85a28698b229--girl-pics-my-girl.jpg" alt="" class="responsive-img z-depth-4 circle-img"></div>
-        </div>
-        <form enctype="multipart/form-data" class="button-save-photo-input">
-          <input id="file-perfil" name="file" type="file" class="hide"/>
-        </form>
-        <div class="font-white center-align col s6 m6 offset-s4 offset-m3 absolute">
-          <h4 id="username-perfil"class="name-user"></h4>
-          <h6 id="email-perfil"class="email"></h6>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row margin-btm-0">
+          <div class="col s4 l3 offset-s1 offset-l1 container-perfil-portada">
+            <a href="#" id="file-select-perfil" class="btn green lighten-2 button-save-photo btn-style-principal absolute"><i class="material-icons">camera_enhance</i></a>
+            <div class="height-perfil z-depth-4"><img id="perfil-img" src="https://i.pinimg.com/736x/0c/db/4f/0cdb4fe1bb54b149248e85a28698b229--girl-pics-my-girl.jpg" alt="" class="responsive-img z-depth-4 circle-img"></div>
+          </div>
+          <form enctype="multipart/form-data" class="button-save-photo-input">
+            <input id="file-perfil" name="file" type="file" class="hide"/>
+          </form>
+          <div class="font-white center-align col s6 m6 offset-s4 offset-m3 absolute">
+            <h4 id="username-perfil"class="name-user"></h4>
+            <h6 id="email-perfil"class="email"></h6>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <ul id="tabs-swipe-demo" class="tabs green lighten-1">
-            <li class="tab col s3 m4 l4 xl4"><a class="active green-ul" href="#biography"><strong class="lg white-text">Biografía</strong></a></li>
-            <li class="tab col s3 m4 l4 xl4"><a class= "green-ul" href="#photos"><strong class="lg white-text">Fotos</strong></a></li>
-            <li class="tab col s3 m4 l4 xl4"><a class= "green-ul" href="#friends"><strong class="lg white-text">Amigos</strong></a></li>
-          </ul>
-          <div id="biography" class="col s12">
-            <div class="container">
-             <div class="row">
-               <div class="col s12">
-                 <form class="card">
-                   <div class="card-content grey lighten-4">
-                     <div class="input-field center-align">
-                       <textarea id="textarea1" class="materialize-textarea"></textarea>
-                       <label for="textarea1"><i class="material-icons left">account_circle</i>¿Qué quieres compartir?</label>
-                       <a href="#" id="file-select-post-foto" class="btn green col s3 btn-style-principal"><i class="material-icons">camera_enhance</i></a>
-                       <div enctype="multipart/form-data">
-                         <input id="file-post-foto" name="file" type="file"/>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <ul id="tabs-swipe-demo" class="tabs green lighten-1">
+              <li class="tab col s3 m4 l4 xl4"><a class="active green-ul" href="#biography"><strong class="lg white-text">Biografía</strong></a></li>
+              <li class="tab col s3 m4 l4 xl4"><a class= "green-ul" href="#photos"><strong class="lg white-text">Fotos</strong></a></li>
+              <li class="tab col s3 m4 l4 xl4"><a class= "green-ul" href="#friends"><strong class="lg white-text">Amigos</strong></a></li>
+            </ul>
+            <div id="biography" class="col s12">
+              <div class="container">
+               <div class="row">
+                 <div class="col s12">
+                   <form class="card">
+                     <div class="card-content grey lighten-4">
+                       <div class="input-field center-align">
+                         <textarea id="textarea1" class="materialize-textarea"></textarea>
+                         <label for="textarea1"><i class="material-icons left">account_circle</i>¿Qué quieres compartir?</label>
+                         <a href="#" id="file-select-post-foto" class="btn green col s3 btn-style-principal"><i class="material-icons">camera_enhance</i></a>
+                         <div enctype="multipart/form-data">
+                           <input id="file-post-foto" name="file" type="file"/>
+                         </div>
+                         <a id="btn-publicar-perfil"class="waves-effect waves-light btn green disabled btn-style-principal"><i class="material-icons right">arrow_upward</i>Publicar</a>
                        </div>
-                       <a id="btn-publicar-perfil"class="waves-effect waves-light btn green disabled btn-style-principal"><i class="material-icons right">arrow_upward</i>Publicar</a>
                      </div>
-                   </div>
-                 </form>
-               </div>
-             </div>
-            </div>
-            <div class="container fotos">
-              <div class="row">
-               <div id="container-post" class="col s12">
-                <!-- aqui van los post-->
+                   </form>
+                 </div>
                </div>
               </div>
+              <div class="container fotos">
+                <div class="row">
+                 <div id="container-post" class="col s12">
+                  <!-- aqui van los post-->
+                 </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div id="photos" class="col s12">
-            <div class="container white gallery">
-              <div class="row">
-                <div class="col s12">
-                  <a href="#" id="file-select-foto" class="btn green btn-subir-foto col s12 btn-style-principal"><i class="material-icons right">arrow_upward</i>Subir fotos</a>
-                  <form enctype="multipart/form-data">
-                    <input id="file-foto" name="file" type="file" class="hide"/>
-                  </form>
-                  <div class="col s12 grey lighten-3" id="fotos-container">
-                    <!-- aqui van las fotos-->
+            <div id="photos" class="col s12">
+              <div class="container white gallery">
+                <div class="row">
+                  <div class="col s12">
+                    <a href="#" id="file-select-foto" class="btn green btn-subir-foto col s12 btn-style-principal"><i class="material-icons right">arrow_upward</i>Subir fotos</a>
+                    <form enctype="multipart/form-data">
+                      <input id="file-foto" name="file" type="file" class="hide"/>
+                    </form>
+                    <div class="col s12 grey lighten-3" id="fotos-container">
+                      <!-- aqui van las fotos-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="friends" class="col s12">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 grey lighten-4">
+                    <h4 class="center-align font-white green-text">Amigos</h4>
+                    <ul class="collection">
+                      <li class="collection-item avatar">
+                        <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
+                        <span class="title">Renato Tapia</span>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                      </li>
+                      <li class="collection-item avatar">
+                        <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
+                        <span class="title">Sofia Gabriela</span>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                      </li>
+                      <li class="collection-item avatar">
+                        <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
+                        <span class="title">María Alejandra</span>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div id="friends" class="col s12">
-            <div class="container">
-              <div class="row">
-                <div class="col s12 grey lighten-4">
-                  <h4 class="center-align font-white green-text">Amigos</h4>
-                  <ul class="collection">
-                    <li class="collection-item avatar">
-                      <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
-                      <span class="title">Renato Tapia</span>
-                      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                    <li class="collection-item avatar">
-                      <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
-                      <span class="title">Sofia Gabriela</span>
-                      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                    <li class="collection-item avatar">
-                      <img src="../assets/images/perfil.png" alt="" class=" responsive-img circle">
-                      <span class="title">María Alejandra</span>
-                      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-   </section>
+    </section>
   </main>
   <!-- Vínculo de archivos js-->
   <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>

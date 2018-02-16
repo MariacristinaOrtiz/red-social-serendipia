@@ -45,7 +45,6 @@ function begin() {
       $(this).prop('checked', false);
     }
   });
-
   $('#btn-create-account').on('click', function() {
     event.preventDefault();
     localStorage.firstName = $firstName.val();
@@ -76,7 +75,6 @@ $(document).ready(function() {
   // Variables booleanas para la activación del button
   var validatePerson = false;
   var validateLock = false;
-
   // Inicio de sesión
   $person.on('input', function() {
     if ($(this).val() === localStorage.firstName || $(this).val() === localStorage.email) {
@@ -84,7 +82,6 @@ $(document).ready(function() {
       validatePerson = true;
     }
   });
-
   $lock.on('input', function() {
     if ($(this).val() === localStorage.password) {
       // alert('esto tambien pasa');
@@ -93,7 +90,6 @@ $(document).ready(function() {
         $loginAccount.removeClass('disabled');
     }
   });
-
   // Función para comparar los datos ingresados del usuario.
   $loginAccount.on('click', function() {
     event.preventDefault();
@@ -104,7 +100,7 @@ $(document).ready(function() {
     }
   });
 
-  // Inicio de sesion con google
+  /* / Inicio de sesion con google
   var provider = new firebase.auth.GoogleAuthProvider();
   $('#login-google').click(function() {
     firebase.auth()
@@ -113,13 +109,14 @@ $(document).ready(function() {
         console.log(result.user);
         $('#login-google').hide();
         alert('¡Bienvenid@ a Serendipia!');
+        var user = result.user;
+        localStorage.userUid = user.uid;
         guardarDatos(result.user);
         setTimeout(function() {
           window.location.href = 'home.html';
         }, 2000);
       });
   });
-
   // Ésta función guarda automáticamente datos del usuario que inicio sesión con google
   function guardarDatos(user) {
     var usuario = {
@@ -128,7 +125,7 @@ $(document).ready(function() {
       email: user.email,
       foto: user.photoURL
     };
-    firebase.database().ref('usuarios/' + user.uid).set(usuario);
+    firebase.database().ref('usuarios/' + user.uid).updated(usuario);
     console.log(user.uid);
-  }
+  } */
 });

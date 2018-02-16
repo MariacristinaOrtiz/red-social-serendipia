@@ -34,7 +34,6 @@ $(document).ready(function() {
         $('#name-user').append('<h6>' + result.user.displayName + '</h6>');
       });
   });
-
   // Función que creará nuevos divs con el contenido del textarea
   $btnPublicarHome.on('click', function(event) {
     console.log($btnPublicarHome);
@@ -44,37 +43,16 @@ $(document).ready(function() {
       var $card = $('<div class= "card">');
       var $cardContent = $('<div class= "card-content">');
       var $paragraph = $('<p>' + $textArea1.val() + ' </p>');
-      // $('<p/>', {
-      // 'html': $textArea1.val()
-      // });
       var date = new Date();
       var hours = date.getHours() + ':' + date.getMinutes();
-
       var $dateBoxContainer = $('<div class = "rigth-align"><p> ' + hours + ' </p></div>');
-      /*  $('<div/>', {
-        'class': 'right-align'
-      });
-      var $dateContent = $('<p/>', {
-        'text': hours,
-      });*/
-
-      /* var $heart = $('<i class="material-icons heart">favorite</i>');
-      var $heartContent = $('<span/>', {
-        'text': $heart,
-      });*/
       var $heartBoxContainer = $('<div class = "left-align"><span><i class="material-icons heart">favorite</i></span></div>');
-      /* $('<div/>', {
-       'class': 'left-align',
-     });*/
-      // $dateBoxContainer.append($dateContent);
-      // $heartBoxContainer.append($heartContent);
       $cardContent.append($paragraph, $dateBoxContainer, $heartBoxContainer);
       $card.append($cardContent);
       $cardBox.prepend($card);
     };
     $textArea1.val('');
   });
-
   // Función que subirá fotos a la página
   $filePhoto.change(function() {
     var $card = $('<div class= "card"></div>');
@@ -84,12 +62,6 @@ $(document).ready(function() {
     // var $photoContainer = $('<div/>');
     reader.onload = function(event) {
       $('#card-box').prepend('<div class ="col s12 white card"><p class ="col s12"><img class = " col s12 responsive-image-post"src= "' + reader.result + '"/></p><p class ="col s12">' + new Date().getHours() + ':' + new Date().getMinutes() + ' horas' + '</p></div>');
-      // $cardContent.append('<img class = "col s6 responsive-img image-style" src= "' + event.target.result + '"/>');
-      // $cardContent.append($photoContainer);
-      /* $card.append($cardContent);
-      $card.addClass('style-card');
-      $card.addClass('height-image');
-      $('#card-box').prepend($card);*/
     };
     reader.readAsDataURL(fileName);
   });

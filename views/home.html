@@ -40,50 +40,52 @@
     </header>
     <!--header vista desktop-->
     <header class="show-on-large hide-on-small-only hide-on-med-and-down">
-    <nav class="navbar-fixed nav-desktop">
-      <div class="container-nav">
-       <div class="row nav-wrapper">
-         <div class="col l4 xl4">
-           <a href=""><img src="../assets/images/seren.png" alt="logo" class="responsive-img logo-header"></a>
-         </div>
-         <div class="input-field col l4 xl4">
-          <i class="material-icons prefix">search</i>
-          <input class="input" id="search" type="text" class="validate" placeholder="Buscar">
+      <nav class="navbar-fixed nav-desktop">
+        <div class="container-nav">
+          <div class="row nav-wrapper">
+            <div class="col l4 xl4">
+              <a href=""><img src="../assets/images/seren.png" alt="logo" class="responsive-img logo-header"></a>
+            </div>
+            <div class="input-field col l4 xl4">
+              <i class="material-icons prefix">search</i>
+              <input class="input" id="search" type="text" class="validate" placeholder="Buscar">
+            </div>
+            <ul class="right hide-on-med-and-down col l4 xl4">
+               <li><a href="vistaPerfil.html"><i class="material-icons">account_circle</i></a></li>
+               <li><a href="home.html"><i class="material-icons">home</i></a></li>
+               <li><a href="#!"><i class="material-icons">notifications</i></li>
+               <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
+            </ul>
+            <!--Lista desplegable para salir(cerrar sesión)-->
+            <ul id="dropdown1" class="dropdown-content">
+               <li><a href="principal.html">Salir</a></li>
+             </ul>
+          </div>
         </div>
-      <ul class="right hide-on-med-and-down col l4 xl4">
-        <li><a href="vistaPerfil.html"><i class="material-icons">account_circle</i></a></li>
-        <li><a href="home.html"><i class="material-icons">home</i></a></li>
-        <li><a href="#!"><i class="material-icons">notifications</i></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
+      </nav>
+    </header>
+    <main>
+      <ul id="slide-out" class="side-nav fixed m-top grey lighten-4">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg" alt="" class="responsive-img">
+            </div>
+            <a href="vistaPerfil.html"><img id="image-user"class="circle" src="https://i.pinimg.com/736x/0c/db/4f/0cdb4fe1bb54b149248e85a28698b229--girl-pics-my-girl.jpg"></a>
+            <a id="username-home" href="#!name"><span class="white-text name"></span></a>
+            <a id="email-home" href="#!email"><span class="white-text email"></span></a>
+         </div>
+         </li>
+         <li><a href="#!"><i class="material-icons">grade</i>Accesos directos</a></li>
+         <li><div class="divider"></div></li>
+         <li><a href="#!"><i class="material-icons">email</i>Mensajes</a></li>
+         <li><div class="divider"></div></li>
+         <li><a href="#!"><i class="material-icons">insert_invitation</i>Eventos</a></li>
+         <li><div class="divider"></div></li>
+         <li><a class="waves-effect" href="#!"><i class="material-icons">all_inclusive</i>Páginas</a></li>
+         <li><div class="divider"></div></li>
       </ul>
-      <!--Lista desplegable para salir(cerrar sesión)-->
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="principal.html">Salir</a></li>
-      </ul>
-       </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <ul id="slide-out" class="side-nav fixed m-top grey lighten-4">
-      <li><div class="user-view">
-    <div class="background">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg" alt="" class="responsive-img">
-    </div>
-    <a href="vistaPerfil.html"><img id="image-user"class="circle" src="https://i.pinimg.com/736x/0c/db/4f/0cdb4fe1bb54b149248e85a28698b229--girl-pics-my-girl.jpg"></a>
-    <a id="username-home" href="#!name"><span class="white-text name"></span></a>
-    <a id="email-home" href="#!email"><span class="white-text email"></span></a>
-  </div></li>
-  <li><a href="#!"><i class="material-icons">grade</i>Accesos directos</a></li>
-  <li><div class="divider"></div></li>
-  <li><a href="#!"><i class="material-icons">email</i>Mensajes</a></li>
-  <li><div class="divider"></div></li>
-  <li><a href="#!"><i class="material-icons">insert_invitation</i>Eventos</a></li>
-  <li><div class="divider"></div></li>
-  <li><a class="waves-effect" href="#!"><i class="material-icons">all_inclusive</i>Páginas</a></li>
-  <li><div class="divider"></div></li>
-      </ul>
-  </main>
+    </main>
     <section id="home" class="padding-top-main">
       <div class="container"> <!--show-on-large hide-on-small-only hide-on-med-and-down-->
         <div class="row margin-btm-0">

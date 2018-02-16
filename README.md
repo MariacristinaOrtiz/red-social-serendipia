@@ -1,4 +1,13 @@
-![Serendipia](assets/images/logo.png)
+# Red social: "SERENDIPIA"
+SERENDIPIA es una red social enfocado a luchar contra la bulimia y anorexia, en la cual la gente que padece o ha padecido ese problema podrá compartir sus experiencias, motivaciones, necesidades e  información con el fin de ayudar a reducir estas enfermedades sociales.
+
+![red-social-serendepia](https://user-images.githubusercontent.com/32300384/36293137-01fa867c-12a5-11e8-9773-248e22dac0d7.png)
+
+## Desarrollado para
+[Laboratoria](http://laboratoria.la)
+
+***
+![Serendipia](assets/images/seren.png)
 
 # Red social: "SERENDIPIA"
 
@@ -42,13 +51,13 @@ Crear una Red Social que cumpla con las expectativas de un emprendedor muy visio
 
 # Planificación:
 
-* Usamos la herramienta 'Trello':
+Usamos la herramienta 'Trello':
 
 link : https://trello.com/b/CARQ3tbT/red-social-anorexia-y-bulimia
 
 # Etapas DCU:
 
-1. Descubrimiento e investigación: Proponer ideas
+**1. Descubrimiento e investigación: Proponer ideas**
 
 Los temas propuestos fueron:
 
@@ -66,7 +75,7 @@ Red social de músicos prometedores.
 Red social sobre la depresión.
 Red social sobre escritores y lectores.
 
-2. Síntesis y definición: Elección del tema
+**2. Síntesis y definición: Elección del tema**
 
 * Tema: Red social anti Anorexia y Bulimia
 
@@ -77,13 +86,13 @@ Es un problema social que ha existido siempre influenciado por el arquetipo de c
 
 * La elección de este tema fue por decisión unánime. Basándonos más en el hecho de querer hacer una labor social con las herramientas que hemos aprendido hasta el momento.
 
-3. Descubrimiento e investigación:
+**3. Descubrimiento e investigación**
 
-* Se entrevistó a algunos usuarios para saber si les agradaba la idea de la Red social anti Ana y Mía.
+Se entrevistó a algunos usuarios para saber si les agradaba la idea de la Red social anti Ana y Mía.
 
 ![Entrevista](assets/docs/entrevista.png)
 
-4. Ideación:
+**4. Ideación**
 
 Para comenzar, cada una hizo su propio sketch, en el cuál plasmamos nuestras ideas.
 
@@ -109,13 +118,13 @@ Por último, analizamos ambos sketchs y decidimos unir las mejores ideas:
 
 - 6ta vista: "vista fotos", queda de María Cristina.
 
-5.  IDEACIÓN: Componentes finales: (Definición de logo, colores, etc)
+**5.  IDEACIÓN: Componentes finales: (Definición de logo, colores, etc)**
 
 * Se eligió el nombre: Serendipia. Cuyo significado es 'descubrimiento historiologicamente hablando o un hallazgo afortunado, valioso e inesperado que se produce de manera accidental o causal, o cuando se está buscando una cosa distinta.'
 
 * Se eligió el siguiente logo:
 
-![Logo](assets/docs/logo2.png)
+![Logo](assets/images/seren.png)
 
 * Se eligió los colores: verde(mayoría) acompañado de azul y un gris de tono suave; todas las barras de navegación verde, los iconos de color gris , los botones azules y otros verdes, el fondo un gradiente de gris bajo, y blanco para otros fondos.
 
@@ -133,24 +142,34 @@ Por último, analizamos ambos sketchs y decidimos unir las mejores ideas:
 
 - " cuando cambias el chip del " quiero estar delgado(a)" a "quiero estar sano" todo fluye..."
 
-6. Prototipo:
+**6. Prototipo**
 
 ![PROTOTIPO](assets/docs/prototipo1.png)
 
 ![PROTOTIPO](assets/docs/prototipo2.png)
 
-7. Testeo con usuarios: Producto final
+**7. Testeo con usuarios: Producto final**
 
-* Se testeó con los mismos usuarios(2), quedó el prototipo y  se cambió lo siguiente: el fondo de todas las vistas, el logo, y loes estilos de algunas vistas.
+* Se testeó con los mismos usuarios(2), quedó el prototipo y  se cambió lo siguiente: el fondo de todas las vistas, el logo, y los estilos de algunas vistas.
 
 ***
 
 ## Herramientas utilizadas:
 
-- jQuery.
+- UX: Entrevista.
 
-- Materialize.
+- UX: Testing
 
-- HTML5.
+- UX: Etapas de Diseño Centrado en el  Usuario.
 
-- etc..
+- UX : ForeUI (prototipo de mediana fidelidad)
+
+- Programación: JQuery
+
+- Programación: Materialize.
+
+- Programación: HTML5.
+
+- Programación: localStorage.
+
+- Programación: CCS3.

@@ -4,7 +4,7 @@ this.randomtip = function() {
   var ran = Math.floor(Math.random() * length) + 1;
   $('#tips li:nth-child(' + ran + ')').show();
 };
-
+// Función para redireccionar a la vista home
 $(document).ready(function() {
   randomtip();
   setTimeout(function() {

@@ -1,4 +1,4 @@
-# Red social: "SERENDIPIA"
+# Red social: SERENDIPIA
 SERENDIPIA es una red social enfocado a luchar contra la bulimia y anorexia, en la cual la gente que padece o ha padecido ese problema podrá compartir sus experiencias, motivaciones, necesidades e  información con el fin de ayudar a reducir estas enfermedades sociales.
 
 ![red-social-serendepia](https://user-images.githubusercontent.com/32300384/36293137-01fa867c-12a5-11e8-9773-248e22dac0d7.png)
@@ -7,9 +7,9 @@ SERENDIPIA es una red social enfocado a luchar contra la bulimia y anorexia, en 
 [Laboratoria](http://laboratoria.la)
 
 ***
-![Serendipia](assets/images/seren.png)
+  ![Serendipia](assets/docs/logo.png)
 
-# Red social: "SERENDIPIA"
+# Red social: SERENDIPIA
 
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
@@ -124,7 +124,7 @@ Por último, analizamos ambos sketchs y decidimos unir las mejores ideas:
 
 * Se eligió el siguiente logo:
 
-![Logo](assets/images/seren.png)
+ ![Logo](assets/docs/logo.png)
 
 * Se eligió los colores: verde(mayoría) acompañado de azul y un gris de tono suave; todas las barras de navegación verde, los iconos de color gris , los botones azules y otros verdes, el fondo un gradiente de gris bajo, y blanco para otros fondos.
 

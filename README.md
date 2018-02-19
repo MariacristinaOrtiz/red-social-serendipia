@@ -48,13 +48,13 @@ Crear una Red Social que cumpla con las expectativas de un emprendedor muy visio
 
 ## PROCESO:
 
-# Planificación:
+## Planificación:
 
 Usamos la herramienta 'Trello':
 
 link : https://trello.com/b/CARQ3tbT/red-social-anorexia-y-bulimia
 
-# Etapas DCU:
+## Etapas DCU:
 
 **1. Descubrimiento e investigación: Proponer ideas**
 

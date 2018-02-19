@@ -7,9 +7,8 @@ SERENDIPIA es una red social enfocado a luchar contra la bulimia y anorexia, en 
 [Laboratoria](http://laboratoria.la)
 
 ***
-  ![Serendipia](assets/docs/logo.png)
 
-# Red social: SERENDIPIA
+## Ver más detalles
 
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
